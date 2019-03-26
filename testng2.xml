@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  <listener class-name="FrameworkFullGroupID.FrameworkFullArtifactID.Listeners">  </listener>
+  
+  <listener class-name='resources.ExtentReporterNG'></listener>
+  </listeners>
+  <test name="Test">
+  <classes>
+          <class name="FrameworkFullGroupID.FrameworkFullArtifactID.LoginTest"/>
+          </classes>
+          </test> 
+<test name="ValidateTitle">
+            <classes>
+      <class name="FrameworkFullGroupID.FrameworkFullArtifactID.ValidateTitle"/>
+      </classes>
+      </test>
+<test name="VaidateNavBar">
+<classes>
+      <class name="FrameworkFullGroupID.FrameworkFullArtifactID.ValidateNavBar"/>
+      </classes>
+      </test>
+     <!--  <class name="FrameworkFullGroupID.FrameworkFullArtifactID.AppTest"/> -->
+ <!-- Test -->
+</suite> <!-- Suite -->

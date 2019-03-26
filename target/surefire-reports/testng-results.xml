@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45264" started-at="2019-03-22T23:35:15Z" finished-at="2019-03-22T23:36:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29360" started-at="2019-03-22T23:35:15Z" finished-at="2019-03-22T23:35:44Z">
+      <class name="FrameworkFullGroupID.FrameworkFullArtifactID.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.LoginTest@90f6bfd]" name="init" is-config="true" duration-ms="5508" started-at="2019-03-22T23:35:15Z" finished-at="2019-03-22T23:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.LoginTest@90f6bfd]" name="login" duration-ms="13725" started-at="2019-03-22T23:35:20Z" data-provider="getData" finished-at="2019-03-22T23:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.LoginTest@90f6bfd]" name="login" duration-ms="9919" started-at="2019-03-22T23:35:34Z" data-provider="getData" finished-at="2019-03-22T23:35:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@987]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.LoginTest@90f6bfd]" name="close" is-config="true" duration-ms="163" started-at="2019-03-22T23:35:44Z" finished-at="2019-03-22T23:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FrameworkFullGroupID.FrameworkFullArtifactID.LoginTest -->
+    </test> <!-- Test -->
+    <test name="ValidateTitle" duration-ms="7852" started-at="2019-03-22T23:35:44Z" finished-at="2019-03-22T23:35:52Z">
+      <class name="FrameworkFullGroupID.FrameworkFullArtifactID.ValidateTitle">
+        <test-method status="PASS" signature="init()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.ValidateTitle@153f5a29]" name="init" is-config="true" duration-ms="7597" started-at="2019-03-22T23:35:44Z" finished-at="2019-03-22T23:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validate()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.ValidateTitle@153f5a29]" name="validate" duration-ms="111" started-at="2019-03-22T23:35:52Z" finished-at="2019-03-22T23:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="close()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.ValidateTitle@153f5a29]" name="close" is-config="true" duration-ms="143" started-at="2019-03-22T23:35:52Z" finished-at="2019-03-22T23:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FrameworkFullGroupID.FrameworkFullArtifactID.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test name="VaidateNavBar" duration-ms="7967" started-at="2019-03-22T23:35:52Z" finished-at="2019-03-22T23:36:00Z">
+      <class name="FrameworkFullGroupID.FrameworkFullArtifactID.ValidateNavBar">
+        <test-method status="PASS" signature="init()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.ValidateNavBar@61a485d2]" name="init" is-config="true" duration-ms="7768" started-at="2019-03-22T23:35:52Z" finished-at="2019-03-22T23:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateNav()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.ValidateNavBar@61a485d2]" name="validateNav" duration-ms="69" started-at="2019-03-22T23:36:00Z" finished-at="2019-03-22T23:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNav -->
+        <test-method status="PASS" signature="close()[pri:0, instance:FrameworkFullGroupID.FrameworkFullArtifactID.ValidateNavBar@61a485d2]" name="close" is-config="true" duration-ms="129" started-at="2019-03-22T23:36:00Z" finished-at="2019-03-22T23:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FrameworkFullGroupID.FrameworkFullArtifactID.ValidateNavBar -->
+    </test> <!-- VaidateNavBar -->
+  </suite> <!-- Suite -->
+</testng-results>
