@@ -24,6 +24,15 @@ public class ValidateNavBar extends BaseClass{
 		LandingPage lp = new LandingPage(driver);
 		Assert.assertTrue(lp.getNav().isDisplayed());
 	}
+	
+	@Test
+	public void validateNav2()
+	{
+	
+		LandingPage lp = new LandingPage(driver);
+		Assert.assertTrue(lp.getNav().isDisplayed());
+	}
+	
 	@AfterTest
 	public void close()
 	{
