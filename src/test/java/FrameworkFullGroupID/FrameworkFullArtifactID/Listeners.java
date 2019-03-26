@@ -30,6 +30,7 @@ public class Listeners implements ITestListener{
 		
 		try {
 			b.getScreenShot(result.getName());
+			System.out.print("test");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
