@@ -30,7 +30,7 @@ public class LoginTest extends BaseClass {
 		LoginPage lp = new LoginPage(driver);
 		lp.getUserId().sendKeys(userId);
 		lp.getPassword().sendKeys(password);
-		//System.out.print(text);
+		System.out.print("test");
 		lp.clickSubmit().click();
 		//Assert.assertTrue("Incorrect Title found",driver.getTitle().equals("Dashboard"));
 		
